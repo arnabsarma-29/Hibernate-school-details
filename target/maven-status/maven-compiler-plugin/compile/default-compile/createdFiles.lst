@@ -1,0 +1,7 @@
+com\school\driver.class
+com\school\entity\School.class
+com\school\entity\Principal.class
+com\school\entity\Student.class
+com\school\entity\Teacher.class
+com\school\dao\Dao.class
+com\school\entity\Subject.class
