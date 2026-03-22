@@ -44,7 +44,7 @@ public class School
 	{
 		this.principal = principal;
 	}
-	public Set<Teacher> getTeachers ()
+	public Set <Teacher> getTeachers ()
 	{
 		return teacher;
 	}
@@ -52,7 +52,7 @@ public class School
 	{
 		this.teacher = teacher;
 	}
-	public Set<Student> getStudents ()
+	public Set <Student> getStudents ()
 	{
 		return student;
 	}
@@ -60,7 +60,7 @@ public class School
 	{
 		this.student = student;
 	}
-	public Set<Subject> getSubjects ()
+	public Set <Subject> getSubjects ()
 	{
 		return subject;
 	}

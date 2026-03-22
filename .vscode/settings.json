@@ -1,0 +1,16 @@
+{
+	"sqltools.connections": [
+		{
+			"ssh": "Disabled",
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 5432,
+			"driver": "PostgreSQL",
+			"name": "hibernate_school",
+			"group": "Personal Projects",
+			"password": "123",
+			"username": "postgres",
+			"database": "hibernate_school"
+		}
+	]
+}

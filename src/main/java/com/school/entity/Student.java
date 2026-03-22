@@ -2,7 +2,6 @@ package com.school.entity;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Collectors;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToMany;
@@ -45,7 +44,7 @@ public class Student
 	{
 		return subjects;
 	}
-	public Set<Teacher> getAllTeachers ()
+	public Set <Teacher> getAllTeachers ()
 	{
 		return subjects.stream ().flatMap (s -> s.getTeachers ().stream ()).collect (Collectors.toSet ());
 	}
