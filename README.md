@@ -123,5 +123,4 @@ git clone https://github.com/your-username/school-management-system.git
 ---
 
 ## Author
-
-GitHub: https://github.com/your-username
+https://github.com/arnabsarma-29
